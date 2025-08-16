@@ -6,4 +6,4 @@ if ! command -v stow > /dev/null ; then
 	exit
 fi
 
-stow */
+stow --no-folding */
