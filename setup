@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if ! command -v stow > /dev/null ; then
+	echo setup requires stow to be installed
+	echo e.g. 'sudo apt install stow' or 'sudo pacman -S stow'
+	exit
+fi
+
+stow */
