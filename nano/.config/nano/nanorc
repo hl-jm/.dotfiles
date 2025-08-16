@@ -1,0 +1,27 @@
+# Show scrollbar on right side
+set indicator
+
+# Show line numbers on left side
+set linenumbers
+
+# Show minibar at bottom rather than top
+set minibar
+
+# Enable mouse support
+set mouse
+
+# Remove the help lines at the bottom
+set nohelp
+
+# Enable softwrapping and split at whitespace
+set softwrap
+set atblanks
+
+# tabs = 4 spaces
+set tabsize 4
+
+# Save with \n, not \r\n
+set unix
+
+# Allow deleting mouse selection
+set zap
