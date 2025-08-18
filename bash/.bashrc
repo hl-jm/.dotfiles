@@ -8,6 +8,7 @@ esac
 
 # No history
 unset HISTFILE
+export LESSHISTFILE=-
 
 # Use gpg to sign git commits
 export GPG_TTY=$(tty)
