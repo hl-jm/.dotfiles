@@ -1,3 +1,8 @@
 [user]
 	email = john.murray@healthlumen.com
 	name = John Murray
+	signingkey = 14E7C5F81AAF41D7
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true

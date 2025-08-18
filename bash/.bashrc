@@ -9,6 +9,9 @@ esac
 # No history
 unset HISTFILE
 
+# Use gpg to sign git commits
+export GPG_TTY=$(tty)
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
