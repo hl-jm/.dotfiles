@@ -75,3 +75,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export AZURE_DEV_COLLECT_TELEMETRY=no
